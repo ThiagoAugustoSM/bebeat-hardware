@@ -40,7 +40,7 @@ int audio_string_length = 4;
 
 void setup() {
  pinMode(LED, OUTPUT);
- Serial.begin(9600); /* Define baud rate for serial communication */
+ Serial.begin(115200); /* Define baud rate for serial communication */
   
 //  attachInterrupt(digitalPinToInterrupt(AUDIO_INPUT_PIN), handleAudio, CHANGE);
 }
